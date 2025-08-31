@@ -3,13 +3,15 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "prodev-mobile-app-0x00/.expo/types/**/*.ts",
+    ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]
 }
